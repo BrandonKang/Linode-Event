@@ -1,9 +1,16 @@
-# Linode-Event
-Receive Linode Event Alerts via Slack Channel
+# Receive Linode Event Alerts via Slack Channel
 
-Linode event notifications are primarily received via email. Since Linode uses the email address provided during registration, these notifications often arrive at work email addresses. Therefore, Linode event emails may be perceived as spam by the end-users and are often overlooked when mixed with work-related emails. Additionally, event emails provide a limited view of cloud resource history, making it impossible to access historical data for specific resources. They only contain information about events that occurred at a particular time.
+Linode event notifications are primarily received via email. Since Linode uses the email address provided during registration, these notifications often arrive at work email addresses. Therefore, Linode event emails may be perceived as spam by the end-users and are often overlooked when mixed with work-related emails. 
 
-Therefore, I began to consider receiving Linode events through Slack instead of my work email. Using Python coding along with Linode API and Slack API, I was able to implement this solution effortlessly. As a result, I was able to implement the desired functionality after investing a few hours. What's more, receiving events through Slack channels provides much more visibility compared to email. To run this code Seamlessly, you need to prepare a Linode instance and prepare an environment in advance where Python and Slack Client functions can run.
+![email_off](/images/linode_event_emailoff.png)
+
+Additionally, event emails provide a limited view of cloud resource history, making it impossible to access historical data for specific resources. They only contain information about events that occurred at a particular time.
+
+Therefore, I began to consider receiving Linode events through Slack instead of my work email. Using Python coding along with Linode API and Slack API, I was able to implement this solution effortlessly. As a result, I was able to implement the desired functionality after investing a few hours. 
+
+![slack_screenshot](/images/linode_event_slackscreen.jpg)
+
+What's more, receiving events through Slack channels provides much more visibility compared to email. To run this code Seamlessly, you need to prepare a Linode instance and prepare an environment in advance where Python and Slack Client functions can run.
 
 ![backend_logo](/images/linode_event_backendlog.jpg)
 
