@@ -5,6 +5,8 @@ Linode event notifications are primarily received via email. Since Linode uses t
 
 Therefore, I began to consider receiving Linode events through Slack instead of my work email. Using Python coding along with Linode API and Slack API, I was able to implement this solution effortlessly. As a result, I was able to implement the desired functionality after investing a few hours. What's more, receiving events through Slack channels provides much more visibility compared to email. To run this code Seamlessly, you need to prepare a Linode instance and prepare an environment in advance where Python and Slack Client functions can run.
 
+![backend_logo](/images/linode_event_backendlog.jpg)
+
 To keep a Python code running on a cloud virtual machine (VM) even after the VM restarts, you can use various methods, including process managers, init scripts, and containerization. The choice of method depends on your expertise on Linux, cloud instance types and requirements. Here are a few common approaches:
 
 Use a Process Manager
